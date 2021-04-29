@@ -1,1 +1,14 @@
 theme: minima
+
+plugins:
+  - jekyll-redirect-from
+
+exclude:
+- Gemfile
+- CNAME
+- readme.md
+- README.md
+- "*/readme.md"
+- "*/README.md"
+- "*/.gitkeep"
+- ".gitkeep"
